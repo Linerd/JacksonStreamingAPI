@@ -19,6 +19,5 @@ public class TestIRC {
 		StringWriter sw = new StringWriter();
 		om.writeValue(sw, response);
 		System.out.println(sw.toString());
-		// System.out.println(response.getMeta().getCost_types().getClass());
 	}
 }
