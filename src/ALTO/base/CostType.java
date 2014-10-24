@@ -34,12 +34,14 @@ public class CostType {
 		}
 	}
 
-	public CostModeValue getCost_mode() {
-		return cost_mode;
+	public String getCost_mode() {
+		return cost_mode.name();
 	}
 
-	public void setCost_mode(CostModeValue cost_mode) {
-		this.cost_mode = cost_mode;
+	public void setCost_mode(String cost_mode) {
+		CostModeValue value = CostModeValue.valueOf(CostModeValue.class,
+				cost_mode);
+		this.cost_mode = value;
 	}
 
 	public String getDescription() {

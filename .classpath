@@ -4,7 +4,11 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="F:/java/ExternalJars/ipv6/java-ipv6-0.15.jar"/>
 	<classpathentry exported="true" kind="lib" path="F:/java/ExternalJars/Jackson/jackson-annotations-2.4.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="F:/java/ExternalJars/Jackson/jackson-core-2.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/java/ExternalJars/Jackson/jackson-core-2.4.3.jar" sourcepath="F:/java/ExternalJars/Jackson/jackson-core-2.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/F:/java/ExternalJars/Jackson/jackson-core-2.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry exported="true" kind="lib" path="F:/java/ExternalJars/Jackson/jackson-core-2.4.3-javadoc.jar"/>
 	<classpathentry exported="true" kind="lib" path="F:/java/ExternalJars/Jackson/jackson-core-2.4.3-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="F:/java/ExternalJars/Jackson/jackson-databind-2.4.3.jar" sourcepath="F:/java/ExternalJars/Jackson/jackson-databind-2.4.3-sources.jar"/>

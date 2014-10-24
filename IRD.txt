@@ -19,7 +19,6 @@
         "cost-metric": "hopcount"
       }
     },
-    "testing":"testing",
     "default-alto-network-map": "my-default-network-map"
   },
   "resources": {

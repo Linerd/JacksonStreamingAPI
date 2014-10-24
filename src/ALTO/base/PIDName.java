@@ -36,4 +36,14 @@ public class PIDName {
 	public String toString() {
 		return pid_name;
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (!(obj instanceof PIDName)) {
+			return false;
+		} else if (obj == this) {
+			return true;
+		} else
+			return ((PIDName) obj).getPid_name().equals(this.pid_name);
+	}
 }
